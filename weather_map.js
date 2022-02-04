@@ -1,6 +1,6 @@
 
 // 1.Update 5 day forecast + Icons (finished)
-// 2.Pin location search (finished but marker sucks<-- solved with newer mapbox api)
+// 2.Pin location search (finished but marker sucks<-- solved with newer mapbox CDN)
 // 3.Search input (done)
 //*Bonus place marker on searched city*(done)
 (function() {
