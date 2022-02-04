@@ -112,10 +112,10 @@
         $("#city").dblclick(function(){$("#icon-play").css("display","").click(function() {
             if (music.paused){
                 music.play().loop;
-                icon.src ="/files/pause.png"
+                icon.src ="pause.png"
             }else {
                 music.pause();
-                icon.src = "/files/play.png"
+                icon.src = "play.png"
             }
         })});
     });
