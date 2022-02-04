@@ -6,7 +6,7 @@
 (function() {
     "use strict";
 //----On start up local Weather Cards-------------------
-    $.get("http://api.openweathermap.org/data/2.5/forecast",{
+    $.get("https://api.openweathermap.org/data/2.5/forecast",{
         APPID: OPEN_WEATHER_APPID,
         q: "San Antonio",
         units: "imperial"
@@ -34,7 +34,7 @@
         }
 //--------------To Update Cards-------------------------------------
         function updateCards(lat,lng) {
-            $.get("http://api.openweathermap.org/data/2.5/forecast",{
+            $.get("https://api.openweathermap.org/data/2.5/forecast",{
                 APPID: OPEN_WEATHER_APPID,
                 lat: lat,
                 lon: lng,
