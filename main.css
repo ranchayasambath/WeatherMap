@@ -54,7 +54,6 @@ body{
     animation: gradient 25s ease infinite;
     height: 3vh;
 }
-/*modify screen size*/
 @keyframes gradient {
     0% {
         background-position: 100% 70%;
@@ -70,4 +69,13 @@ body{
 }
 .hidden{
     display: none;
+}
+@media only screen and (min-width: 1349px){
+   body{
+        font-size: .2em;
+    }
+    #map{
+        width: auto;
+        height: 30em;
+    }
 }
