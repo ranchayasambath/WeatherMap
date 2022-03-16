@@ -43,7 +43,6 @@ body{
     background: linear-gradient(50deg, #48bfe3,#283593, rgb(224, 84, 8), rgba(255, 183, 0, 0.3));
     background-size: 500% 500% ;
     animation: gradient 25s ease infinite;
-;
 }
 #input{
     color: white;
@@ -70,12 +69,18 @@ body{
 .hidden{
     display: none;
 }
-@media only screen and (min-width: 1349px){
+@media screen and (min-width:1024px) and (max-width:1440px){
    body{
-        font-size: .2em;
+        font-size: .7em;
     }
     #map{
         width: auto;
-        height: 30em;
+        height: 20em;
     }
+}
+@media screen and (max-width:768px){
+    #insert-card{
+        flex-direction: row;
+    }
+
 }
